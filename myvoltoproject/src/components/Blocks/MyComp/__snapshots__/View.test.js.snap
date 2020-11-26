@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the entire component in a Snapshot using the view component 1`] = `
+<form
+  className="ui form"
+  onSubmit={[Function]}
+>
+  <div
+    className="inline field text"
+    id="field-name"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-name"
+            >
+              Name
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <div
+            className="ui input"
+          >
+            <input
+              id="field-name"
+              maxLength={null}
+              minLength={null}
+              name="name"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              placeholder=""
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline field email"
+    id="field-email"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-email"
+            >
+              Email
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <div
+            className="ui input"
+          >
+            <input
+              id="field-email"
+              maxLength={null}
+              minLength={null}
+              name="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              type="email"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline field"
+    id="field-age"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-age"
+            >
+              Age
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <div
+            className="ui input"
+          >
+            <input
+              id="field-age"
+              max={100}
+              min={18}
+              name="age"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              type="number"
+              value={18}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline field myselect"
+    id="field-sex"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-sex"
+            >
+              Sex
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <div
+            className="react-select-container css-2b097c-container"
+            id="field-sex"
+            onKeyDown={[Function]}
+          >
+            <div
+              className="react-select__control css-1ard45z-control"
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <div
+                className="react-select__value-container react-select__value-container--has-value css-1dvrfad"
+              >
+                <div
+                  className="react-select__single-value css-1uccc91-singleValue"
+                >
+                  
+                </div>
+                <div
+                  className="css-b8ldur-Input"
+                >
+                  <div
+                    className="react-select__input"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      autoCapitalize="none"
+                      autoComplete="off"
+                      autoCorrect="off"
+                      disabled={false}
+                      id="react-select-2-input"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      spellCheck="false"
+                      style={
+                        Object {
+                          "background": 0,
+                          "border": 0,
+                          "boxSizing": "content-box",
+                          "color": "inherit",
+                          "fontSize": "inherit",
+                          "label": "input",
+                          "opacity": 1,
+                          "outline": 0,
+                          "padding": 0,
+                          "width": "1px",
+                        }
+                      }
+                      tabIndex="0"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      style={
+                        Object {
+                          "height": 0,
+                          "left": 0,
+                          "overflow": "scroll",
+                          "position": "absolute",
+                          "top": 0,
+                          "visibility": "hidden",
+                          "whiteSpace": "pre",
+                        }
+                      }
+                    >
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <span
+                  className="react-select__indicator-separator css-6fp5c8-indicatorSeparator"
+                />
+              </div>
+            </div>
+            <input
+              name="sex"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline field text"
+    id="field-city"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-city"
+            >
+              City
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <div
+            className="ui input"
+          >
+            <input
+              id="field-city"
+              maxLength={null}
+              minLength={null}
+              name="city"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              placeholder=""
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline required field myselect"
+    id="field-reason"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-reason"
+            >
+              Reason
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <div
+            className="react-select-container css-2b097c-container"
+            id="field-reason"
+            onKeyDown={[Function]}
+          >
+            <div
+              className="react-select__control css-1ard45z-control"
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <div
+                className="react-select__value-container react-select__value-container--has-value css-1dvrfad"
+              >
+                <div
+                  className="react-select__single-value css-1uccc91-singleValue"
+                >
+                  Talk with Assistent
+                </div>
+                <div
+                  className="css-b8ldur-Input"
+                >
+                  <div
+                    className="react-select__input"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      autoCapitalize="none"
+                      autoComplete="off"
+                      autoCorrect="off"
+                      disabled={false}
+                      id="react-select-3-input"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      spellCheck="false"
+                      style={
+                        Object {
+                          "background": 0,
+                          "border": 0,
+                          "boxSizing": "content-box",
+                          "color": "inherit",
+                          "fontSize": "inherit",
+                          "label": "input",
+                          "opacity": 1,
+                          "outline": 0,
+                          "padding": 0,
+                          "width": "1px",
+                        }
+                      }
+                      tabIndex="0"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      style={
+                        Object {
+                          "height": 0,
+                          "left": 0,
+                          "overflow": "scroll",
+                          "position": "absolute",
+                          "top": 0,
+                          "visibility": "hidden",
+                          "whiteSpace": "pre",
+                        }
+                      }
+                    >
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <span
+                  className="react-select__indicator-separator css-6fp5c8-indicatorSeparator"
+                />
+              </div>
+            </div>
+            <input
+              name="reason"
+              type="hidden"
+              value="talk-with"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline field textarea"
+    id="field-notes"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="stretched row"
+      >
+        <div
+          className="four wide column"
+        >
+          <div
+            className="wrapper"
+          >
+            <label
+              htmlFor="field-notes"
+            >
+              Notes
+            </label>
+          </div>
+        </div>
+        <div
+          className="eight wide column"
+        >
+          <textarea
+            id="field-notes"
+            name="notes"
+            onChange={[Function]}
+            onInput={[Function]}
+            placeholder=""
+            rows={3}
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      className="ui primary button submit-block-button view"
+      onClick={[Function]}
+    >
+      SEND
+    </button>
+  </div>
+</form>
+`;
