@@ -1,18 +1,13 @@
 import React from 'react';
-import MyFormEdit from './Edit.jsx';
 import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-intl-redux';
+import { CheckboxWidget, TextWidget } from '@plone/volto/components';
 
-import { TextWidget, TextareaWidget } from '@plone/volto/components';
-import EmailWidget from '@package/components/EmailWidget/EmailWidget';
-import NumberWidget from '@package/components/NumberWidget/NumberWidget';
-import SelectMyWidget from '@package/components/SelectMyWidget/SelectMyWidget';
-
+import MySelectSidebar from './MySelectSidebar.jsx';
 import configureStore from 'redux-mock-store';
 
 const mockStore = configureStore();
-
 const store = mockStore({
   intl: {
     locale: 'en',
@@ -22,7 +17,7 @@ const store = mockStore({
 
 const mycomp = (
   <Provider store={store}>
-    <MyFormEdit data={{}} block="BLOCK" onChangeBlock={() => {}} />
+    <MySelectSidebar data={{}} block="BLOCK" onChangeBlock={() => {}} />
   </Provider>
 );
 
@@ -32,5 +27,3 @@ test('render the entire component in a Snapshot using the view component', () =>
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
-
-//UNIT TEST

@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the entire component in a Snapshot using the view component 1`] = `
+<div
+  className="ui raised segments"
+>
+  <header>
+    <h2>
+      Name
+    </h2>
+  </header>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field text"
+      id="field-placeholder"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="four wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <label
+                htmlFor="field-placeholder"
+              >
+                Placeholder
+              </label>
+            </div>
+          </div>
+          <div
+            className="eight wide column"
+          >
+            <div
+              className="ui input"
+            >
+              <input
+                id="field-placeholder"
+                maxLength={null}
+                minLength={null}
+                name="placeholder"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field"
+      id="field-required"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="twelve wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="ui checkbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+              >
+                <input
+                  checked={false}
+                  className="hidden"
+                  name="field-required"
+                  readOnly={true}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="field-required"
+                >
+                  Required
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <h2>
+      Email
+    </h2>
+  </header>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field"
+      id="field-required"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="twelve wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="ui checkbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+              >
+                <input
+                  checked={false}
+                  className="hidden"
+                  name="field-required"
+                  readOnly={true}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="field-required"
+                >
+                  Required
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <h2>
+      Age
+    </h2>
+  </header>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field"
+      id="field-required"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="twelve wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="ui checkbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+              >
+                <input
+                  checked={false}
+                  className="hidden"
+                  name="field-required"
+                  readOnly={true}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="field-required"
+                >
+                  Required
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <h2>
+      Sex
+    </h2>
+  </header>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field"
+      id="field-required"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="twelve wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="ui checkbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+              >
+                <input
+                  checked={false}
+                  className="hidden"
+                  name="field-required"
+                  readOnly={true}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="field-required"
+                >
+                  Required
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <h2>
+      City
+    </h2>
+  </header>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field text"
+      id="field-placeholder"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="four wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <label
+                htmlFor="field-placeholder"
+              >
+                Placeholder
+              </label>
+            </div>
+          </div>
+          <div
+            className="eight wide column"
+          >
+            <div
+              className="ui input"
+            >
+              <input
+                id="field-placeholder"
+                maxLength={null}
+                minLength={null}
+                name="placeholder"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field"
+      id="field-required"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="twelve wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="ui checkbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+              >
+                <input
+                  checked={false}
+                  className="hidden"
+                  name="field-required"
+                  readOnly={true}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="field-required"
+                >
+                  Required
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <h2>
+      Notes
+    </h2>
+  </header>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field text"
+      id="field-placeholder"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="four wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <label
+                htmlFor="field-placeholder"
+              >
+                Placeholder
+              </label>
+            </div>
+          </div>
+          <div
+            className="eight wide column"
+          >
+            <div
+              className="ui input"
+            >
+              <input
+                id="field-placeholder"
+                maxLength={null}
+                minLength={null}
+                name="placeholder"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui segment form sidebar-image-data"
+  >
+    <div
+      className="inline field"
+      id="field-required"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="stretched row"
+        >
+          <div
+            className="twelve wide column"
+          >
+            <div
+              className="wrapper"
+            >
+              <div
+                className="ui checkbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+              >
+                <input
+                  checked={false}
+                  className="hidden"
+                  name="field-required"
+                  readOnly={true}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="field-required"
+                >
+                  Required
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

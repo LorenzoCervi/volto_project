@@ -183,7 +183,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <div
                   className="react-select__single-value css-1uccc91-singleValue"
                 >
-                  
+                  Choose
                 </div>
                 <div
                   className="css-b8ldur-Input"
@@ -349,7 +349,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <div
                   className="react-select__single-value css-1uccc91-singleValue"
                 >
-                  Talk with Assistent
+                  Talk with an Expert
                 </div>
                 <div
                   className="css-b8ldur-Input"
@@ -420,7 +420,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
             <input
               name="reason"
               type="hidden"
-              value="talk-with"
+              value="Talk with an expert"
             />
           </div>
         </div>
@@ -470,8 +470,9 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     <button
       className="ui primary button submit-block-button view"
       onClick={[Function]}
+      type="submit"
     >
-      SEND
+      Send
     </button>
   </div>
 </form>
