@@ -11,4 +11,164 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "Age"
+msgstr "Età"
 
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "City"
+msgstr "Città"
+
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "Email"
+msgstr "Email"
+
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "Name"
+msgstr "Nome"
+
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "Notes"
+msgstr "Note"
+
+#: components/Blocks/MyComp/View
+msgid "Send"
+msgstr "INVIA"
+
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "Sex"
+msgstr "Sesso"
+
+#: components/Blocks/MyComp/Edit
+#: components/Blocks/MyComp/View
+msgid "age"
+msgstr "Età"
+
+#: components/Blocks/MyComp/View
+msgid "assistent"
+msgstr "Parla con un Esperto"
+
+#: components/Blocks/MyComp/Edit
+#: components/Blocks/MyComp/View
+msgid "city"
+msgstr "Città"
+
+#: components/Blocks/MyComp/View
+msgid "errAfield"
+msgstr "Errore in tutti i campi"
+
+#: components/Blocks/MyComp/View
+msgid "errAge"
+msgstr "Errore contenuto Età"
+
+#: components/Blocks/MyComp/View
+msgid "errCity"
+msgstr "Errore contenuto Città"
+
+#: components/Blocks/MyComp/View
+msgid "errEmail"
+msgstr "Errore contenuto Email"
+
+#: components/Blocks/MyComp/View
+msgid "errName"
+msgstr "Errore contenuto Nome"
+
+#: components/Blocks/MyComp/View
+msgid "errNotes"
+msgstr "Errore contenuto Note"
+
+#: components/Blocks/MyComp/View
+msgid "errSex"
+msgstr "Errore contenuto Sesso"
+
+#: components/Blocks/MyComp/View
+msgid "errcnt1"
+msgstr "Questo input è sbagliato, leggere l'errore nel campo"
+
+#: components/Blocks/MyComp/View
+msgid "errcnt2"
+msgstr "Questo campo è obbligatorio"
+
+#: components/Blocks/MyComp/View
+msgid "errcntA"
+msgstr "Nessun campo richiesto è riempito,tranne Età e Motivo(default)"
+
+#: components/Blocks/MyComp/View
+msgid "female"
+msgstr "Femmina"
+
+#: components/Blocks/MyComp/View
+msgid "help"
+msgstr "Aiuto"
+
+#: components/Blocks/MyComp/View
+msgid "invAge"
+msgstr "Età in input SBAGLIATA (range:18-100)"
+
+#: components/Blocks/MyComp/View
+msgid "invCity"
+msgstr "Città in input SBAGLIATA,(deve essere maiuscola) e deve essere almeno lungo 2 lettere"
+
+#: components/Blocks/MyComp/View
+msgid "invEmail"
+msgstr "Email in input SBAGLIATA (miaemail@dominio.nat)"
+
+#: components/Blocks/MyComp/View
+msgid "invName"
+msgstr "Nome NON PUÒ contenere numeri o simboli e deve essere almeno lungo 2 lettere"
+
+#: components/Blocks/MyComp/View
+msgid "job"
+msgstr "Richiesta lavoro"
+
+#: components/Blocks/MyComp/View
+msgid "male"
+msgstr "Maschio"
+
+#: components/Blocks/MyComp/Edit
+#: components/Blocks/MyComp/View
+msgid "name"
+msgstr "Nome"
+
+#: components/Blocks/MyComp/Edit
+#: components/Blocks/MyComp/View
+msgid "notes"
+msgstr "Note"
+
+#: components/Blocks/MyComp/View
+msgid "other"
+msgstr "Altro"
+
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "placeholder"
+msgstr "Suggerimento"
+
+#: components/Blocks/MyComp/View
+msgid "question"
+msgstr "Domanda"
+
+#: components/Blocks/MyComp/Edit
+#: components/Blocks/MyComp/View
+msgid "reason"
+msgstr "Motivo"
+
+#: components/Blocks/MyComp/MySelectSidebar
+msgid "required"
+msgstr "Campo obbligatorio"
+
+#: components/Blocks/MyComp/Edit
+#: components/Blocks/MyComp/View
+msgid "sex"
+msgstr "Sesso"
+
+#: components/Blocks/MyComp/View
+msgid "sexdef"
+msgstr "Scegli"
+
+#: components/Blocks/MyComp/View
+msgid "succ"
+msgstr "Successo!"
+
+#: components/Blocks/MyComp/View
+msgid "succSub"
+msgstr "Tutti i campi sono stati inviati"
