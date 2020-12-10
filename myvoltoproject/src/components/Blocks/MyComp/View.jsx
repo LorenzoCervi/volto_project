@@ -72,7 +72,7 @@ const messages = defineMessages({
   },
   InvalidName:{
     id:'invName',
-    defaultMessage:'Name CAN NOT contain numbers or symbols',  
+    defaultMessage:'Name CAN NOT contain numbers or symbols, and it has to have a lenght of 2',  
   },
   InvalidEmail:{
     id:'invEmail',
@@ -84,7 +84,55 @@ const messages = defineMessages({
   },
   InvalidCity:{
     id:'invCity',
-    defaultMessage:'Wrong input City, (must be in Capital letters)',
+    defaultMessage:'Wrong input City, (must be in Capital letters),and it has to have a lenght of 2',
+  },
+  ErrorAllFields:{
+    id:'errAfield',
+    defaultMessage:'Error Fields',
+  },
+  ErrorContAll:{
+    id:'errcntA',
+    defaultMessage:'None of the required fields is filled,except Age and Reason',
+  },
+  ErrorCont1:{
+    id:'errcnt1',
+    defaultMessage:'This input is wrong, read the error',
+  },
+  ErrorCont2:{
+    id:'errcnt2',
+    defaultMessage:'This field is required',
+  },
+  ErrorName:{
+    id:'errName',
+    defaultMessage:'Error Name',
+  },
+  ErrorEmail:{
+    id:'errEmail',
+    defaultMessage:'Error Email',
+  },
+  ErrorAge:{
+    id:'errAge',
+    defaultMessage:'Error Age',
+  },
+  ErrorSex:{
+    id:'errSex',
+    defaultMessage:'Error Sex',
+  },
+  ErrorCity:{
+    id:'errCity',
+    defaultMessage:'Error City',
+  },
+  ErrorNotes:{
+    id:'errNotes',
+    defaultMessage:'Error Notes',
+  },
+  Success:{
+    id:'succ',
+    defaultMessage:'Success!',
+  },
+  SuccessSub:{
+    id:'succSub',
+    defaultMessage:'All contents are submitted',
   },
 });
 
@@ -111,79 +159,95 @@ const messages = defineMessages({
   	
   };
   
-  const clicked=(states,reqFields)=>{
+  const clicked=(states,reqFields,intl)=>{
   
-    	/*if((reqFields.reqN===true && (states.Name==='' || states.Name===undefined)) &&
+    	if((reqFields.reqN===true && (states.Name==='' || states.Name===undefined)) &&
   	   (reqFields.reqE===true && (states.Email==='' || states.Email===undefined)) &&
   	   (reqFields.reqS===true && (states.Sex.value==='' || states.Sex.name===undefined)) &&
   	   (reqFields.reqC===true && (states.City==='' || states.City===undefined)) &&
   	   (reqFields.reqNo===true && (states.Notes==='' || states.Notes===undefined)) 
   	){
   		  	  toast.error(
-  	   <Toast error title='Error Fields' content='None of the required fields is filled'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorAllFields)} content={intl.formatMessage(messages.ErrorContAll)}/>,
   	   );
   	   return;
-  	}*/
-  switch(true){
-    	case(reqFields.reqN===true && (states.Name===''|| states.Name===undefined || !isValidName(states.Name)) ):
+  	}
+
+    	if(reqFields.reqN===true && (states.Name===''|| states.Name===undefined || !isValidName(states.Name)))
   	{
   	   if(!isValidName(states.Name))
-  	   {toast.error(
-  	   <Toast error title='Error Name' content='This input is wrong, read the error'/>,
-  	   );}
+  	   toast.error(
+  	   <Toast error title={intl.formatMessage(messages.ErrorName)} content={intl.formatMessage(messages.ErrorCont1)}/>,
+  	   )
   	   else
   	  toast.error(
-  	   <Toast error title='Error Name' content='This field is required'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorName)} content={intl.formatMessage(messages.ErrorCont2)}/>,
   	   );
-
+  	  
        }
-       case(reqFields.reqE===true && (states.Email==='' || states.Email===undefined|| !isValidEmail(states.Email))):
+       if(reqFields.reqE===true && (states.Email==='' || states.Email===undefined|| !isValidEmail(states.Email)))
   	{
   	   if(!isValidEmail(states.Email))
-  	   {toast.error(
-  	   <Toast error title='Error Email' content='This input is wrong, read the error'/>,
-  	   );}
+  	   toast.error(
+  	   <Toast error title={intl.formatMessage(messages.ErrorEmail)} content={intl.formatMessage(messages.ErrorCont1)}/>,
+  	   )
   	  else
   	  toast.error(
-  	   <Toast error title='Error Email' content='This field is required'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorEmail)} content={intl.formatMessage(messages.ErrorCont2)}/>,
   	   );
+  	 
   	}
 
   	
-  	case(isNaN(states.Age)):
+  	if(isNaN(states.Age)|| states.Age<18 || states.Age >100)
   	{
   	  toast.error(
-  	   <Toast error title='Error Age' content='This input is wrong, read the error'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorAge)} content={intl.formatMessage(messages.ErrorCont1)}/>,
   	   );
+  	   if(reqFields.reqA===true)
+  	   {
+  	   toast.error(
+  	   <Toast error title={intl.formatMessage(messages.ErrorAge)} content={intl.formatMessage(messages.ErrorCont2)}/>,
+  	   );
+  	   }
+  	  
   	}
   	
-  	case(reqFields.reqS===true && (states.Sex.value==='' || states.Sex.value===undefined)):
+
+  	
+  	if(reqFields.reqS===true && (states.Sex.value==='' || states.Sex.value===undefined))
   	{
 
   	  toast.error(
-  	   <Toast error title='Error Sex' content='This field is required'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorSex)} content={intl.formatMessage(messages.ErrorCont2)}/>,
   	   );
+  	  
   	}
-  	case(reqFields.reqC===true && (states.City==='' || states.City===undefined)):
+  	if(reqFields.reqC===true && (states.City==='' || states.City===undefined || !isValidCity(states.City)))
   	{
   	  if(!isValidCity(states.City))
-  	   {toast.error(
-  	   <Toast error title='Error City' content='This input is wrong, read the error'/>,
-  	   );}
+  	   toast.error(
+  	   <Toast error title={intl.formatMessage(messages.ErrorCity)} content={intl.formatMessage(messages.ErrorCont1)}/>,
+  	   )
   	  else
   	  toast.error(
-  	   <Toast error title='Error City' content='This field is required'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorCity)} content={intl.formatMessage(messages.ErrorCont2)}/>,
   	   );
+  	 
   	}
-  	case(reqFields.reqNo===true && (states.Notes==='' || states.Notes===undefined)):
+  	if(reqFields.reqNo===true && (states.Notes==='' || states.Notes===undefined))
   	{
   	  toast.error(
-  	   <Toast error title='Error Notes' content='This field is required'/>,
+  	   <Toast error title={intl.formatMessage(messages.ErrorNotes)} content={intl.formatMessage(messages.ErrorCont2)}/>,
   	   );
-  	   break;
+  	   
   	}
   	
-  	default:
+  	else if(true)
+  	{
+  	 toast.success(
+  	   <Toast success title={intl.formatMessage(messages.Success)} content={intl.formatMessage(messages.SuccessSub)}/>,
+  	   );
   	console.dir(states);
   	}
   		
@@ -299,7 +363,7 @@ const MyFormView = ({ data, intl, ...rest }) => {
           <Button
             primary
             className="submit-block-button view"
-            onClick={() => clicked(states,reqFields)}
+            onClick={() => clicked(states,reqFields,intl)}
             type="submit"
           >
             <FormattedMessage id="Send" defaultMessage="Send" />
