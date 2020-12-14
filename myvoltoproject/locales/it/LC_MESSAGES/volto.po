@@ -31,10 +31,6 @@ msgstr "Nome"
 msgid "Notes"
 msgstr "Note"
 
-#: components/Blocks/MyComp/View
-msgid "Send"
-msgstr "INVIA"
-
 #: components/Blocks/MyComp/MySelectSidebar
 msgid "Sex"
 msgstr "Sesso"
@@ -43,10 +39,6 @@ msgstr "Sesso"
 #: components/Blocks/MyComp/View
 msgid "age"
 msgstr "Età"
-
-#: components/Blocks/MyComp/View
-msgid "assistent"
-msgstr "Parla con un Esperto"
 
 #: components/Blocks/MyComp/Edit
 #: components/Blocks/MyComp/View
@@ -94,6 +86,10 @@ msgid "errcntA"
 msgstr "Nessun campo richiesto è riempito,tranne Età e Motivo(default)"
 
 #: components/Blocks/MyComp/View
+msgid "expert"
+msgstr "Parla con un esperto"
+
+#: components/Blocks/MyComp/View
 msgid "female"
 msgstr "Femmina"
 
@@ -136,6 +132,14 @@ msgid "notes"
 msgstr "Note"
 
 #: components/Blocks/MyComp/View
+msgid "notsucc"
+msgstr "Fallimento!"
+
+#: components/Blocks/MyComp/View
+msgid "notsuccSub"
+msgstr "Non è possibile mandare la richiesta, controlla i campi"
+
+#: components/Blocks/MyComp/View
 msgid "other"
 msgstr "Altro"
 
@@ -155,6 +159,10 @@ msgstr "Motivo"
 #: components/Blocks/MyComp/MySelectSidebar
 msgid "required"
 msgstr "Campo obbligatorio"
+
+#: components/Blocks/MyComp/View
+msgid "send"
+msgstr "INVIA"
 
 #: components/Blocks/MyComp/Edit
 #: components/Blocks/MyComp/View
