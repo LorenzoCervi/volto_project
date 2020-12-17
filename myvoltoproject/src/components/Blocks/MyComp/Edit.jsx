@@ -40,7 +40,7 @@ const messages = defineMessages({
   },
 });
 const MyFormEdit = (props) => {
-  const { data, block, onChangeBlock, required = false, intl } = props;
+  const { data, block, onChangeBlock,intl } = props;
   return (
     <>
       <Form>
@@ -54,7 +54,7 @@ const MyFormEdit = (props) => {
         <EmailWidget
           id="email"
           title="Email"
-          required={props.data?.requiredEmail ?? false}
+          required={true}
           onChange={() => {}}
         />
         <NumberWidget
@@ -100,7 +100,7 @@ const MyFormEdit = (props) => {
       </Form>
 
       <SidebarPortal selected={props.selected ?? false}>
-        <MySelectSidebar {...props} />
+        <MySelectSidebar data={data} block={block} onChangeBlock={onChangeBlock} />
       </SidebarPortal>
     </>
   );
@@ -110,7 +110,7 @@ MyFormEdit.propTypes = {
   data: PropTypes.objectOf(PropTypes.any).isRequired,
   block: PropTypes.string.isRequired,
   onChangeBlock: PropTypes.func.isRequired,
-  required: PropTypes.bool,
+  intl:PropTypes.any,
 };
 
 export default injectIntl(MyFormEdit);

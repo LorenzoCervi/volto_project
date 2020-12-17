@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render the entire component in a Snapshot using the view component 1`] = `
+exports[`render the entire component in a Snapshot using the edit component 1`] = `
 <form
   className="ui form"
   onSubmit={[Function]}
@@ -52,7 +52,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="inline field email"
+    className="inline required field email"
     id="field-email"
   >
     <div
@@ -97,7 +97,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="inline field"
+    className="inline field number"
     id="field-age"
   >
     <div
@@ -200,7 +200,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                       autoComplete="off"
                       autoCorrect="off"
                       disabled={false}
-                      id="react-select-2-input"
+                      id="react-select-6-input"
                       onBlur={[Function]}
                       onChange={[Function]}
                       onFocus={[Function]}
@@ -363,7 +363,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                       autoComplete="off"
                       autoCorrect="off"
                       disabled={false}
-                      id="react-select-3-input"
+                      id="react-select-7-input"
                       onBlur={[Function]}
                       onChange={[Function]}
                       onFocus={[Function]}

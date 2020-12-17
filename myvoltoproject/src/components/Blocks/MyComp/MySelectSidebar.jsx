@@ -16,7 +16,7 @@ const messages = defineMessages({
 });
 
 const MySelectSidebar = (props) => {
-  const { data, block, onChangeBlock, required = false, intl } = props;
+
   return (
     <Segment.Group raised>
       <header>
@@ -24,10 +24,10 @@ const MySelectSidebar = (props) => {
           <FormattedMessage id="Name" defaultMessage="Name" />
         </h2>
       </header>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-name-plch">
         <TextWidget
-          id="placeholder"
-          title={intl.formatMessage(messages.Placeholder)}
+          id="placeholder-name"
+          title={props.intl.formatMessage(messages.Placeholder)}
           value={props.data?.placeholderN ?? ''}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
@@ -37,34 +37,15 @@ const MySelectSidebar = (props) => {
           }}
         />
       </Segment>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-name-req">
         <CheckboxWidget
-          id="required"
-          title={intl.formatMessage(messages.Required)}
+          id="required-name"
+          title={props.intl.formatMessage(messages.Required)}
           value={props.data?.requiredName ?? false}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
               ...props.data,
               requiredName: v,
-            });
-          }}
-        />
-      </Segment>
-      <header>
-        <h2>
-          <FormattedMessage id="Email" defaultMessage="Email" />
-        </h2>
-      </header>
-
-      <Segment className="form sidebar-image-data">
-        <CheckboxWidget
-          id="required"
-          title={intl.formatMessage(messages.Required)}
-          value={props.data?.requiredEmail ?? false}
-          onChange={(e, v) => {
-            props.onChangeBlock(props.block, {
-              ...props.data,
-              requiredEmail: v,
             });
           }}
         />
@@ -75,10 +56,10 @@ const MySelectSidebar = (props) => {
           <FormattedMessage id="Age" defaultMessage="Age" />
         </h2>
       </header>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-age-req">
         <CheckboxWidget
-          id="required"
-          title={intl.formatMessage(messages.Required)}
+          id="required-age"
+          title={props.intl.formatMessage(messages.Required)}
           value={props.data?.requiredAge ?? false}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
@@ -94,10 +75,10 @@ const MySelectSidebar = (props) => {
           <FormattedMessage id="Sex" defaultMessage="Sex" />
         </h2>
       </header>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-sex-req">
         <CheckboxWidget
-          id="required"
-          title={intl.formatMessage(messages.Required)}
+          id="required-sex"
+          title={props.intl.formatMessage(messages.Required)}
           value={props.data?.requiredSex ?? false}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
@@ -113,10 +94,10 @@ const MySelectSidebar = (props) => {
           <FormattedMessage id="City" defaultMessage="City" />
         </h2>
       </header>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-city-plch">
         <TextWidget
-          id="placeholder"
-          title={intl.formatMessage(messages.Placeholder)}
+          id="placeholder-city"
+          title={props.intl.formatMessage(messages.Placeholder)}
           value={props.data?.placeholderC ?? ''}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
@@ -126,10 +107,10 @@ const MySelectSidebar = (props) => {
           }}
         />
       </Segment>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-city-req">
         <CheckboxWidget
-          id="required"
-          title={intl.formatMessage(messages.Required)}
+          id="required-city"
+          title={props.intl.formatMessage(messages.Required)}
           value={props.data?.requiredCity ?? false}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
@@ -145,10 +126,10 @@ const MySelectSidebar = (props) => {
           <FormattedMessage id="Notes" defaultMessage="Notes" />
         </h2>
       </header>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-notes-plch">
         <TextWidget
-          id="placeholder"
-          title={intl.formatMessage(messages.Placeholder)}
+          id="placeholder-notes"
+          title={props.intl.formatMessage(messages.Placeholder)}
           value={props.data?.placeholderNotes ?? ''}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {
@@ -158,10 +139,10 @@ const MySelectSidebar = (props) => {
           }}
         />
       </Segment>
-      <Segment className="form sidebar-image-data">
+      <Segment className="form sidebar-notes-req">
         <CheckboxWidget
-          id="required"
-          title={intl.formatMessage(messages.Required)}
+          id="required-notes"
+          title={props.intl.formatMessage(messages.Required)}
           value={props.data?.requiredNotes ?? false}
           onChange={(e, v) => {
             props.onChangeBlock(props.block, {

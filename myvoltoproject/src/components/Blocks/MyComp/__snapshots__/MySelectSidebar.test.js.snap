@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render the entire component in a Snapshot using the view component 1`] = `
+exports[`render the entire component in a Snapshot using the sidebar component 1`] = `
 <div
   className="ui raised segments"
 >
@@ -10,11 +10,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </h2>
   </header>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-name-plch"
   >
     <div
       className="inline field text"
-      id="field-placeholder"
+      id="field-placeholder-name"
     >
       <div
         className="ui grid"
@@ -29,7 +29,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
               className="wrapper"
             >
               <label
-                htmlFor="field-placeholder"
+                htmlFor="field-placeholder-name"
               >
                 Placeholder
               </label>
@@ -42,10 +42,10 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
               className="ui input"
             >
               <input
-                id="field-placeholder"
+                id="field-placeholder-name"
                 maxLength={null}
                 minLength={null}
-                name="placeholder"
+                name="placeholder-name"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onClick={[Function]}
@@ -59,11 +59,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-name-req"
   >
     <div
       className="inline field"
-      id="field-required"
+      id="field-required-name"
     >
       <div
         className="ui grid"
@@ -87,64 +87,13 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <input
                   checked={false}
                   className="hidden"
-                  name="field-required"
+                  name="field-required-name"
                   readOnly={true}
                   tabIndex={0}
                   type="checkbox"
                 />
                 <label
-                  htmlFor="field-required"
-                >
-                  Required
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <header>
-    <h2>
-      Email
-    </h2>
-  </header>
-  <div
-    className="ui segment form sidebar-image-data"
-  >
-    <div
-      className="inline field"
-      id="field-required"
-    >
-      <div
-        className="ui grid"
-      >
-        <div
-          className="stretched row"
-        >
-          <div
-            className="twelve wide column"
-          >
-            <div
-              className="wrapper"
-            >
-              <div
-                className="ui checkbox"
-                onChange={[Function]}
-                onClick={[Function]}
-                onMouseDown={[Function]}
-                onMouseUp={[Function]}
-              >
-                <input
-                  checked={false}
-                  className="hidden"
-                  name="field-required"
-                  readOnly={true}
-                  tabIndex={0}
-                  type="checkbox"
-                />
-                <label
-                  htmlFor="field-required"
+                  htmlFor="field-required-name"
                 >
                   Required
                 </label>
@@ -161,11 +110,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </h2>
   </header>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-age-req"
   >
     <div
       className="inline field"
-      id="field-required"
+      id="field-required-age"
     >
       <div
         className="ui grid"
@@ -189,13 +138,13 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <input
                   checked={false}
                   className="hidden"
-                  name="field-required"
+                  name="field-required-age"
                   readOnly={true}
                   tabIndex={0}
                   type="checkbox"
                 />
                 <label
-                  htmlFor="field-required"
+                  htmlFor="field-required-age"
                 >
                   Required
                 </label>
@@ -212,11 +161,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </h2>
   </header>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-sex-req"
   >
     <div
       className="inline field"
-      id="field-required"
+      id="field-required-sex"
     >
       <div
         className="ui grid"
@@ -240,13 +189,13 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <input
                   checked={false}
                   className="hidden"
-                  name="field-required"
+                  name="field-required-sex"
                   readOnly={true}
                   tabIndex={0}
                   type="checkbox"
                 />
                 <label
-                  htmlFor="field-required"
+                  htmlFor="field-required-sex"
                 >
                   Required
                 </label>
@@ -263,11 +212,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </h2>
   </header>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-city-plch"
   >
     <div
       className="inline field text"
-      id="field-placeholder"
+      id="field-placeholder-city"
     >
       <div
         className="ui grid"
@@ -282,7 +231,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
               className="wrapper"
             >
               <label
-                htmlFor="field-placeholder"
+                htmlFor="field-placeholder-city"
               >
                 Placeholder
               </label>
@@ -295,10 +244,10 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
               className="ui input"
             >
               <input
-                id="field-placeholder"
+                id="field-placeholder-city"
                 maxLength={null}
                 minLength={null}
-                name="placeholder"
+                name="placeholder-city"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onClick={[Function]}
@@ -312,11 +261,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-city-req"
   >
     <div
       className="inline field"
-      id="field-required"
+      id="field-required-city"
     >
       <div
         className="ui grid"
@@ -340,13 +289,13 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <input
                   checked={false}
                   className="hidden"
-                  name="field-required"
+                  name="field-required-city"
                   readOnly={true}
                   tabIndex={0}
                   type="checkbox"
                 />
                 <label
-                  htmlFor="field-required"
+                  htmlFor="field-required-city"
                 >
                   Required
                 </label>
@@ -363,11 +312,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </h2>
   </header>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-notes-plch"
   >
     <div
       className="inline field text"
-      id="field-placeholder"
+      id="field-placeholder-notes"
     >
       <div
         className="ui grid"
@@ -382,7 +331,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
               className="wrapper"
             >
               <label
-                htmlFor="field-placeholder"
+                htmlFor="field-placeholder-notes"
               >
                 Placeholder
               </label>
@@ -395,10 +344,10 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
               className="ui input"
             >
               <input
-                id="field-placeholder"
+                id="field-placeholder-notes"
                 maxLength={null}
                 minLength={null}
-                name="placeholder"
+                name="placeholder-notes"
                 onBlur={[Function]}
                 onChange={[Function]}
                 onClick={[Function]}
@@ -412,11 +361,11 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="ui segment form sidebar-image-data"
+    className="ui segment form sidebar-notes-req"
   >
     <div
       className="inline field"
-      id="field-required"
+      id="field-required-notes"
     >
       <div
         className="ui grid"
@@ -440,13 +389,13 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                 <input
                   checked={false}
                   className="hidden"
-                  name="field-required"
+                  name="field-required-notes"
                   readOnly={true}
                   tabIndex={0}
                   type="checkbox"
                 />
                 <label
-                  htmlFor="field-required"
+                  htmlFor="field-required-notes"
                 >
                   Required
                 </label>

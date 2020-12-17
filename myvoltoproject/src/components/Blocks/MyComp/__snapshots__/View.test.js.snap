@@ -52,7 +52,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="inline field email"
+    className="inline required field email"
     id="field-email"
   >
     <div
@@ -97,7 +97,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
     </div>
   </div>
   <div
-    className="inline field"
+    className="inline field number"
     id="field-age"
   >
     <div
@@ -202,7 +202,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                       autoComplete="off"
                       autoCorrect="off"
                       disabled={false}
-                      id="react-select-2-input"
+                      id="react-select-6-input"
                       onBlur={[Function]}
                       onChange={[Function]}
                       onFocus={[Function]}
@@ -368,7 +368,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
                       autoComplete="off"
                       autoCorrect="off"
                       disabled={false}
-                      id="react-select-3-input"
+                      id="react-select-7-input"
                       onBlur={[Function]}
                       onChange={[Function]}
                       onFocus={[Function]}
@@ -420,7 +420,7 @@ exports[`render the entire component in a Snapshot using the view component 1`] 
             <input
               name="reason"
               type="hidden"
-              value="Talk with an expert"
+              value="Talk with an Expert"
             />
           </div>
         </div>
