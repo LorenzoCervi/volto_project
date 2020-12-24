@@ -20,10 +20,6 @@ msgid "City"
 msgstr "Città"
 
 #: components/Blocks/MyComp/MySelectSidebar
-msgid "Email"
-msgstr "Email"
-
-#: components/Blocks/MyComp/MySelectSidebar
 msgid "Name"
 msgstr "Nome"
 
@@ -107,7 +103,7 @@ msgstr "Città in input SBAGLIATA,(deve essere maiuscola) e deve essere almeno l
 
 #: components/Blocks/MyComp/View
 msgid "invEmail"
-msgstr "Email in input SBAGLIATA (miaemail@dominio.nat)"
+msgstr "Email in input SBAGLIATA (miaemail@dominio)"
 
 #: components/Blocks/MyComp/View
 msgid "invName"
